@@ -17,6 +17,13 @@ const HomePage = () => {
                     <a href="/inpt" class="btn btn-primary">Explore</a>
                 </div>
             </div>
+            <div class="card text-center mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Get in touch with Drexel.</h5>
+                    <p class="card-text">Explore Demo.</p>
+                    <a href="/inpt" class="btn btn-primary">Demo</a>
+                </div>
+            </div>
         </div>
     )
 }
