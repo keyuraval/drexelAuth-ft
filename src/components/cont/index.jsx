@@ -4,27 +4,32 @@ import './styles.css'
 
 const HomePage = () => {
     return (
-        <div>
+        <>
             <Main />
             <div className='container'>
                 <p>Welcome to Drexel.</p>
                 <p className='head'>One Stop Cutomer Interaction Solution for Developers.</p>
             </div>
-            <div class="card text-center mb-3">
-                <div class="card-body">
-                    <h5 class="card-title">Start Free Trial</h5>
-                    <p class="card-text">Get started with free trial.</p>
-                    <a href="/inpt" class="btn btn-primary">Explore</a>
+            <br /><br />
+
+            <div className='container'>
+                <div className="card text-center mb-3 row">
+                    <div className="card-body col">
+                        <h5 className="card-title">Start Free Trial</h5>
+                        <p className="card-text">Get started with free trial.</p>
+                        <a href="/inpt" className="btn btn-primary">Explore</a>
+                    </div>
+                </div>
+                <div className="card text-center mb-3 row">
+                    <div className="card-body col">
+                        <h5 className="card-title">Get in touch with Drexel.</h5>
+                        <p className="card-text">Explore Demo.</p>
+                        <a href="/dmo" className="btn btn-primary">Demo</a>
+                    </div>
                 </div>
             </div>
-            <div class="card text-center mb-3">
-                <div class="card-body">
-                    <h5 class="card-title">Get in touch with Drexel.</h5>
-                    <p class="card-text">Explore Demo.</p>
-                    <a href="/inpt" class="btn btn-primary">Demo</a>
-                </div>
-            </div>
-        </div>
+
+        </>
     )
 }
 
